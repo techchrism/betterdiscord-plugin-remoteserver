@@ -1,0 +1,23 @@
+{
+  "name": "betterdiscord-plugin-remoteserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.mjs",
+    "link-windows": "mklink /h \"%APPDATA%/BetterDiscord/plugins/RemoteServer.plugin.js\" \"build/RemoteServer.plugin.js\""
+  },
+  "keywords": [],
+  "author": "techchrism",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.5"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4"
+  }
+}
