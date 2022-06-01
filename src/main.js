@@ -1,6 +1,7 @@
 import {promises as fs} from 'fs';
 import path from 'path';
 import {nanoid} from 'nanoid';
+import WebServer from './WebServer.js';
 
 module.exports = class RemoteServer {
     async start() {
@@ -18,10 +19,11 @@ module.exports = class RemoteServer {
             await fs.writeFile(configPath, JSON.stringify(config, null, 4), 'utf-8');
         }
 
-        console.log(`Loaded from ${configPath}`);
+        this.webServer = new WebServer(config.host, config.port, config.password);
+        this.webServer.start();
     }
     stop() {
-
+        this.webServer.stop();
     }
 }
 

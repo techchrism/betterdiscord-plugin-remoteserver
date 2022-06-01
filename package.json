@@ -14,10 +14,16 @@
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "rollup": "^2.75.5"
   },
   "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-basic-auth": "^4.0.0",
+    "koa-body": "^5.0.0",
+    "koa-helmet": "^6.1.0",
     "nanoid": "^3.3.4"
   }
 }
