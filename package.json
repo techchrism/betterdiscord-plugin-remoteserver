@@ -1,7 +1,7 @@
 {
   "name": "betterdiscord-plugin-remoteserver",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "BetterDiscord plugin to run remotely-provided javascript code in the Discord process",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
