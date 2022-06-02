@@ -8,6 +8,11 @@ Designed for use in scripting without writing a dedicated plugin.
 
 Download the [latest RemoteServer.plugin.js release](../../releases/latest/download/RemoteServer.plugin.js) and put it in your plugins directory.
 
+# Usage
+
+Make a POST request to `http://{host}:{port}/run` with http basic auth username `remoteserver` and password from config.
+Anything in the body gets run through `eval`.
+
 ## Dev Setup
 
  - Clone repository
