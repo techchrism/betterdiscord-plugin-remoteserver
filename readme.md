@@ -6,7 +6,7 @@ Designed for use in scripting without writing a dedicated plugin.
 
 ## Installation
 
-Download the [latest release](releases/latest) and put it in your plugins directory. 
+Download the [latest RemoteServer.plugin.js release](../../releases/latest/download/RemoteServer.plugin.js) and put it in your plugins directory.
 
 ## Dev Setup
 
