@@ -4,6 +4,10 @@ A BetterDiscord plugin to run remotely-provided javascript code in the Discord p
 Starts a web server with a random password to listen for incoming requests.
 Designed for use in scripting without writing a dedicated plugin.
 
+## Installation
+
+Download the [latest release](releases/latest) and put it in your plugins directory. 
+
 ## Dev Setup
 
  - Clone repository
